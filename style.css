@@ -23,3 +23,12 @@ body{
     height: 100%;
     cursor: cell;
 }
+
+.flexcontainer{
+    display: flex;
+    justify-content: center;
+    
+}
+.item{
+    padding:  20px ;
+}
