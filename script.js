@@ -42,5 +42,5 @@ background.addEventListener('input', changeBackground);
 
 function changeBackground(){
     ctx.fillStyle = background.value;
-ctx.fillRect(0,0, cnv.width, cnv.height);
+ctx.fillRect(0,0, cnv.width, cnv.height);           
 }
