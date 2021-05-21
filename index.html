@@ -12,20 +12,21 @@
     <div id="container">
         <canvas id="canvas"></canvas>
     </div>
-    <div class = "flexContainer">
-        <div class="item">
+    <div class ="flexcontainer" >
+        <div class ="item" >
             Цвет кисточки
-            <input type="color" id="color" value="#ffffff">
+            <input type="color" id="color" value="#000000">
         </div>
-        <div class="item">
+        <div class ="item" >
             Цвет фона
-            <input type="color" id="background" value="#000000">
+            <input type="color" id="backgroundcolor" value="#93F1B7">
         </div>
         <div>
             Сейчас выбран инструмент
             <button id="tool">Кисточка</button>
         </div>
     </div>
+    
     <input type="range" id="size" min="5" max="100" step="1" value="50">
     <a download="myImage.jpg" id="save_image">Сохранить картинку</a>
     <script src="script.js"></script>
