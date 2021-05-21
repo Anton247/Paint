@@ -6,7 +6,7 @@ let width = 30;
 let tool = "Кисточка";
 let button = document.getElementById("tool");
 
-let displayWidth = cnv.clientWidth;
+let displayWidth = cnv.clientWidth; 
 let displayHeight = cnv.clientHeight;
 cnv.width = displayWidth;
 cnv.height = displayHeight;
