@@ -30,7 +30,7 @@ cnv.onmousedown = (e) => {
   setTimeout(() => {
     cnv.onmousemove = (event) => {
       if (tool == "Кисточка") ctx.fillStyle = color;
-      else ctx.fillStyle = background;
+      else ctx.fillStyle = background.value;
       ctx.fillRect(
         event.offsetX - width / 2,
         event.offsetY - width / 2,
@@ -40,7 +40,7 @@ cnv.onmousedown = (e) => {
     };
   }, 1);
   if (tool == "Кисточка") ctx.fillStyle = color;
-  else ctx.fillStyle = background;
+  else ctx.fillStyle = background.value;
   ctx.fillRect(e.offsetX - width / 2, e.offsetY - width / 2, width, width);
   cnv.onmouseup = () => {
     cnv.onmousemove = null;
